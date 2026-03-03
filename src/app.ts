@@ -17,7 +17,7 @@ const app = express();
 app.use(
   cors({
     // Replace with your actual frontend URL (no trailing slash)
-    origin: ["http://localhost:3000","https://task-management-frontend-three-opal.vercel.app"], 
+    origin: ["http://localhost:3000","https://task-management-frontend-three-opal.vercel.app","https://task-management-frontend-iup9qf3hj.vercel.app"], 
     credentials: true,
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
