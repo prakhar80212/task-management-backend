@@ -25,7 +25,7 @@ router.get(
 
 router.get(
   "/google/callback",
-  passport.authenticate("google-login", { session: false, failureRedirect: "http://localhost:3000/auth/callback?error=user_not_found" }),
+  passport.authenticate("google-login", { session: false, failureRedirect: "https://task-management-frontend-iup9qf3hj.vercel.app/auth/callback?error=user_not_found" }),
   googleCallback
 );
 
@@ -36,7 +36,7 @@ router.get(
 
 router.get(
   "/google/signup/callback",
-  passport.authenticate("google-signup", { session: false, failureRedirect: "http://localhost:3000/auth/callback?error=user_already_exists" }),
+  passport.authenticate("google-signup", { session: false, failureRedirect: "https://task-management-frontend-iup9qf3hj.vercel.app/auth/callback?error=user_already_exists" }),
   googleSignupCallback
 );
 

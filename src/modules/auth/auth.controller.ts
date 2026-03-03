@@ -51,7 +51,7 @@ export const googleCallback = async (req: Request, res: Response) => {
       httpOnly: true,
       sameSite: "strict",
     })
-    .redirect(`http://localhost:3000/auth/callback?token=${accessToken}`);
+    .redirect(`https://task-management-frontend-iup9qf3hj.vercel.app/auth/callback?token=${accessToken}`);
 };
 
 export const googleSignupCallback = async (req: Request, res: Response) => {
@@ -69,7 +69,7 @@ export const googleSignupCallback = async (req: Request, res: Response) => {
       httpOnly: true,
       sameSite: "strict",
     })
-    .redirect(`http://localhost:3000/auth/callback?token=${accessToken}`);
+    .redirect(`https://task-management-frontend-iup9qf3hj.vercel.app/auth/callback?token=${accessToken}`);
 };
 
 export const refresh = async (req: Request, res: Response) => {
