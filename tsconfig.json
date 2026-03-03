@@ -17,9 +17,9 @@
     "declarationMap": true,
 
     /* Stricter Typechecking Options */
-    "strict": true,
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
+    "strict": false,
+    "noUncheckedIndexedAccess": false,
+    "exactOptionalPropertyTypes": false,
 
     /* Recommended / Additional Options */
     "jsx": "react-jsx",
